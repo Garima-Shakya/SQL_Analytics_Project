@@ -1,171 +1,285 @@
-#  SQL Analytics Projects
+# SQL Analytics Projects
 
 ##  Overview
 
-Welcome to my SQL Analytics Portfolio!
+Welcome to my **SQL Analytics Portfolio**!
 
-This repository contains end-to-end SQL projects developed to solve real-world business problems using structured query language (SQL). Each project follows the complete analytics workflow—from understanding the business objective to writing SQL queries, analyzing results, and generating actionable business insights.
+This repository showcases end-to-end analytics projects developed using **SQL** and **Power BI** to solve real-world business problems. Each project follows the complete analytics lifecycle—from understanding business requirements and querying relational databases to building interactive dashboards that support data-driven decision-making.
 
-The projects are designed to demonstrate practical SQL skills commonly used by Data Analysts for reporting, KPI tracking, operational analysis, and business decision-making.
-
-Throughout these projects, I focus on writing clean, readable SQL while applying business thinking rather than simply retrieving data.
-
-### Skills Demonstrated
-
-- SQL Query Writing
-- Data Exploration
-- Business KPI Analysis
-- Aggregation & Grouping
-- Conditional Aggregation (CASE WHEN)
-- Joins (INNER & LEFT JOIN)
-- Multi-table Joins
-- Filtering & Sorting
-- Business Reporting
-- Analytical Problem Solving
+The objective of this repository is not only to demonstrate SQL proficiency but also to show how analytical findings can be transformed into meaningful business insights through visualization.
 
 ---
 
-#  Tools Used
+#  Skills Demonstrated
 
-- SQL (SQLite)
-- Python
-- Pandas
-- Jupyter Notebook
-- GitHub
+### SQL
+
+* SQL Query Writing
+* Data Exploration
+* Data Filtering
+* Aggregation & Grouping
+* Conditional Aggregation (`CASE WHEN`)
+* INNER JOIN
+* LEFT JOIN
+* Multi-table JOINs
+* Sorting & Ranking
+* Business KPI Calculations
+* Analytical Problem Solving
+
+### Power BI
+
+* Data Modeling
+* Relationship Management
+* DAX Measures
+* Interactive Dashboard Design
+* KPI Cards
+* Data Visualization
+* Slicers & Filters
+* Business Storytelling
+
+---
+
+#  Tools & Technologies
+
+* SQL (SQLite)
+* Python
+* Pandas
+* Jupyter Notebook
+* Power BI
+* DAX
+* Git & GitHub
 
 ---
 
 #  Projects Index
 
-##  1. Hospital Management SQL Analysis
-
-**Status:**  Completed
-
-### Project Summary
-
-This project analyzes a Hospital Management Database using SQL to answer real-world business questions related to hospital operations, patient management, doctor performance, appointment analysis, and financial reporting.
-
-The project consists of **25 business-oriented SQL queries**, each designed to simulate requests from hospital management and demonstrate how SQL can support operational and strategic decision-making.
+| No. | Project                       | SQL Analysis | Power BI Dashboard |   Status  |
+| :-: | ----------------------------- | :----------: | :----------------: | :-------: |
+|  1  | Hospital Management Analytics |  ✅ Completed |     ✅ Completed    | Completed |
+|  2  | E-Commerce Analytics          |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
+|  3  | HR Analytics                  |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
+|  4  | Banking Analytics             |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
+|  5  | Movie Analytics               |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
+|  6  | Sales Analytics               |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
 
 ---
+
+#  Project 1 – Hospital Management Analytics
+
+## Project Summary
+
+This project analyzes a relational hospital management database to answer real-world business questions related to hospital operations, patient management, doctor performance, appointments, and revenue.
+
+The project demonstrates the complete analytics workflow by combining SQL-based business analysis with an interactive Power BI dashboard.
+
+---
+
+## SQL Analysis
 
 ### Business Areas Covered
 
-####  Hospital KPIs
+### Hospital KPIs
 
-- Total Registered Patients
-- Total Doctors
-- Appointment Status Analysis
-- Insurance Provider Distribution
+* Total Registered Patients
+* Total Doctors
+* Total Appointments
+* Appointment Status Analysis
+* Insurance Provider Distribution
 
----
+### Patient Analytics
 
-####  Patient Analytics
+* Gender Distribution
+* Registration Trends
+* Oldest & Youngest Patients
+* Patients Without Appointments
 
-- Gender Distribution
-- Registration Trends
-- Oldest & Youngest Patients
-- Patients Without Appointments
+### Doctor Analytics
 
----
+* Doctor Workload
+* Busiest Doctors
+* Appointments by Specialization
+* Doctors Without Appointments
+* No-show Percentage by Doctor
+* Top Doctors by Cancellation Rate
 
-####  Doctor Performance Analysis
+### Appointment Analytics
 
-- Doctor Workload
-- Busiest Doctors
-- Appointments by Specialization
-- Doctors Without Appointments
-- No-show Percentage by Doctor
-- Top Doctors by Cancellation Rate
+* Daily Appointment Trends
+* Appointment Status Distribution
+* No-show Percentage
+* Cancellation Percentage
+* Upcoming vs Completed Appointments
 
----
+### Billing & Revenue Analytics
 
-####  Appointment Analysis
-
-- Daily Appointment Trends
-- No-show Percentage
-- Cancellation Percentage
-- Appointment Status Analysis
-
----
-
-####  Billing & Revenue Analysis
-
-- Total Revenue
-- Revenue by Payment Method
-- Revenue by Insurance Provider
-- Highest Paying Patient
-- Revenue Generated by Doctors
-- Most Used Payment Method
-- Average Revenue per Successful Payment
+* Total Revenue
+* Revenue by Payment Method
+* Revenue by Insurance Provider
+* Highest Paying Patient
+* Revenue Generated by Doctors
+* Most Used Payment Method
+* Average Revenue per Successful Payment
 
 ---
 
-### SQL Concepts Applied
+## Power BI Dashboard
 
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- LIMIT
-- Aggregate Functions
-  - COUNT()
-  - SUM()
-  - AVG()
-- CASE WHEN
-- INNER JOIN
-- LEFT JOIN
-- Multi-table JOINs
-- Aliases
-- Business KPI Calculations
+### Executive KPIs
 
----
+* Total Patients
+* Total Doctors
+* Total Appointments
+* Total Revenue
+* No-show %
+* Cancellation %
 
-### Project Workflow
+### Patient Analysis
 
-1. Import datasets into Python
-2. Create SQLite database
-3. Load tables into SQL
-4. Verify database structure
-5. Perform exploratory SQL queries
-6. Solve business-oriented analytical questions
-7. Interpret results with observations and business insights
-8. Document findings in a professional notebook
+* Patient Distribution by Gender
+* Patient Distribution by Insurance Provider
 
----
+### Doctor Analysis
 
-### Key Learning Outcomes
+* Doctor Experience
+* Appointments by Doctor
 
-- Applied SQL to solve practical business problems.
-- Improved understanding of relational database design.
-- Learned how to identify relationships between multiple tables.
-- Practiced writing efficient aggregation and JOIN queries.
-- Developed business-oriented analytical thinking by translating management questions into SQL queries.
-- Documented findings using professional observations and business insights suitable for stakeholder reporting.
+### Appointment Analysis
+
+* Appointment Status Distribution
+* Monthly Appointment Trend
+
+### Revenue Analysis
+
+* Revenue by Payment Method
+* Revenue by Insurance Provider
+
+### Interactive Filters
+
+* Doctor
+* Appointment Status
+* Insurance Provider
+* Payment Method
 
 ---
 
-### Repository Structure
+## Business Questions Answered
 
+* What are the overall hospital KPIs?
+* How are patients distributed by gender and insurance provider?
+* Which doctors handle the highest appointment volume?
+* What percentage of appointments result in no-shows or cancellations?
+* How do appointment trends change over time?
+* Which payment methods generate the highest revenue?
+* Which insurance providers contribute the most revenue?
+
+---
+
+## SQL Concepts Applied
+
+* SELECT
+* WHERE
+* GROUP BY
+* ORDER BY
+* LIMIT
+* Aggregate Functions
+* COUNT()
+* SUM()
+* AVG()
+* CASE WHEN
+* INNER JOIN
+* LEFT JOIN
+* Multi-table JOINs
+* Aliases
+* Business KPI Calculations
+
+---
+
+## Power BI Concepts Applied
+
+* Data Modeling
+* Table Relationships
+* DAX Measures
+* CALCULATE()
+* COUNTROWS()
+* SUM()
+* DIVIDE()
+* KPI Cards
+* Bar Charts
+* Donut Charts
+* Line Charts
+* Interactive Slicers
+
+---
+
+## Project Workflow
+
+```text
+Business Problem
+
+↓
+
+Data Preparation
+
+↓
+
+SQL Analysis
+
+↓
+
+Business Insights
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Interactive Reporting
 ```
-SQL_Analytics_Projects
+
+---
+
+## Repository Structure
+
+```text
+SQL_Analytics_Project
 │
 ├── README.md
 │
-├── Hospital_Management_SQL_Analysis
-│   ├── Hospital_SQL_Project.ipynb
-│   ├── Dataset
-│   ├── Images
-│   └── README.md
+├── Hospital_Management_Analytics
 │
-├── (Upcoming Projects)
-│   ├── E-Commerce SQL Analysis
-│   ├── HR Analytics SQL
-│   ├── Banking SQL Analysis
-│   ├── Movie Analytics SQL
-│   └── Sales Dashboard SQL
+│   ├── SQL
+│   │   ├── Hospital_SQL_Project.ipynb
+│   │   ├── Hospital_SQL_Queries.sql
+│   │
+│   ├── PowerBI
+│   │   ├── Hospital_Management_Dashboard.pbix
+│   │   └── Dashboard_Screenshot.png
+│   │
+│   ├── Dataset
+│   │
+│   └── Images
+│
+├── Upcoming Projects
+│
+│   ├── E-Commerce Analytics
+│   ├── HR Analytics
+│   ├── Banking Analytics
+│   ├── Movie Analytics
+│   └── Sales Analytics
 ```
 
+---
+
+## Key Learning Outcomes
+
+* Solved real-world business problems using SQL.
+* Strengthened understanding of relational database design.
+* Applied JOINs and aggregations to analyze business data.
+* Developed business KPIs using SQL and DAX.
+* Built an interactive Power BI dashboard for executive reporting.
+* Improved analytical thinking by translating business requirements into data-driven solutions.
+* Documented insights in a professional, portfolio-ready format.
 
 ---
 
@@ -173,4 +287,6 @@ SQL_Analytics_Projects
 
 **Garima Shakya**
 
-Aspiring Data Analyst passionate about SQL, Python, Data Visualization, and Business Analytics.
+Aspiring Data Analyst passionate about SQL, Python, Power BI, Excel, and Business Analytics.
+
+This repository documents my learning journey while building practical, business-oriented analytics projects that reflect real-world industry workflows.
