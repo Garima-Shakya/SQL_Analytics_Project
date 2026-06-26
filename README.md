@@ -55,7 +55,7 @@ The objective of this repository is not only to demonstrate SQL proficiency but 
 
 | No. | Project                       | SQL Analysis | Power BI Dashboard |   Status  |
 | :-: | ----------------------------- | :----------: | :----------------: | :-------: |
-|  1  | Hospital Management Analytics |  ✅ Completed |     ✅ Completed    | Completed |
+|  1  | Hospital Management  Analysis |  ✅ Completed |     ✅ Completed    | Completed |
 |  2  | E-Commerce Analytics          |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
 |  3  | HR Analytics                  |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
 |  4  | Banking Analytics             |   ⏳ Planned  |      ⏳ Planned     |  Upcoming |
@@ -64,7 +64,7 @@ The objective of this repository is not only to demonstrate SQL proficiency but 
 
 ---
 
-#  Project 1 – Hospital Management Analytics
+#  Project 1 – Hospital Management SQL Analysis
 
 ## Project Summary
 
